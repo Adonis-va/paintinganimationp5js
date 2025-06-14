@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painting Animation Illustration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+      <h1>Painting Animation Illustration</h1>
+
+      <div class="originalVersion">
+        <h4>Additional Information:</h4>
+        <p>This painting is based on <a href="https://en.wikipedia.org/wiki/Paul_Klee"class="authorName">Paul Klee</a> 1922, Red Balloon, oil on chalk-primed gauze.</p>
+        <p>Click the link bellow to view the original version and compare.</p>
+        <a href="https://commons.wikimedia.org/wiki/File:Paul_Klee,_1922,_Red_Balloon,_oil_on_chalk-primed_gauze,_mounted_on_board,_31.7_x_31.1_cm,_Solomon_R._Guggenheim_Museum.jpg" class="viewOV">View the Original Version</a>
+      </div>
+
+      <div class="paintingVersions">
+        <button onclick="loadStatic()">Static Version</button>
+        <button onclick="loadAnimated()">Animated Version</button>
+        <button onclick="loadInteractive()">Interactive Version</button>
+      </div>
+
+      <div id="canvas-container"></div>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="script.js"></script> 
+
+</body>
+</html>

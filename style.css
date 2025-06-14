@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Oswald:wght@200..700&display=swap');
+body {
+      margin: 0;
+      background-color: #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+    canvas {
+      border: 2px solid #333;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 2.5em;
+      font-family: "Marmelad", sans-serif;
+    }
+    .paintingVersions {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 35px;
+    }
+    button {
+      padding: 15px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      font-size: 15px;
+      font-weight: 600;
+      color: #981010;
+    }
+    button:hover {
+      cursor: pointer;
+      background-color: #fff;
+      color: #065a2a;
+    }
+    .originalVersion {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .originalVersion a {
+      font-weight: 600;
+    }
+    .viewOV {
+      font-weight: 600;
+    }
+    .originalVersion .authorName {
+      text-decoration: none;
+    } 
